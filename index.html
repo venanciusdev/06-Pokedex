@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <div class="painel" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+        
+        <img style="position: absolute; left:300px" width="50px" src="https://cdn3.iconfinder.com/data/icons/pokemon-go-3/512/pokemon_go_play_game_cinema_film_movie-512.png" alt="">
+        <h1>Pokédex</h1>
+        <div id="tela">
+
+        </div>
+
+        <input type="text" id="entrada" placeholder="Digite o pokémon...">
+        <button onclick="buscar()">Pesquisar</button>
+
+        <br>
+
+        <button onclick="anterior()">Anterior</button>
+        <button onclick="proximo()">Próximo</button>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
